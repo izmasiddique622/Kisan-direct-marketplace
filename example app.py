@@ -96,7 +96,9 @@ def get_db_connection():
 
         password=os.getenv("DB_PASSWORD"),
 
-        database=os.getenv("DB_NAME")
+        database=os.getenv("DB_NAME"),
+
+        ssl_disabled=False
     )
 
 # =========================================================
