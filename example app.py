@@ -99,6 +99,7 @@ def get_db_connection():
         database=os.getenv("DB_NAME"),
 
         ssl_disabled=False
+        connection_timeout=10,
     )
 
 # =========================================================
